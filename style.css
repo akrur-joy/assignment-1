@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* First page css start */
+
+.banner-container{
+    width: 1510px;
+    height: 667px;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-image: url("assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-content{
+    width: 898px;
+    height: 600px;
+    margin: o auto;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.banner-content img{
+    width: 220px;
+    height: 200px;
+    margin-left: 340px;
+
+}
+.banner-content h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-left: 365px;
+    margin-top: 80px;
+}
+
+/* First page css end */
+
+/* why development section starts hare  */
+.second-section-1{
+    width: 1240px;
+    height: 1350px;
+    margin: 0 auto;
+    
+    margin-top: 60px;
+}
+.button{
+    color: black;
+    background-color: white;
+
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    
+}
+
+.second-content-1 h1{
+    color: rgb(13, 19, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.second-content-1 p{
+    color: rgb(13, 19, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.second-content-2 {
+      width: 946px;
+      height: 336px;
+      margin: 0 auto;
+      border: 2px solid white;
+      margin-top: 40px;
+}
+.second-content-sub {
+    width: 50%;
+    height: 50%;
+    border: 0 auto;
+    margin: 2px solid white;
+     
+}
+.second-content-3 {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-top: 40px;
+}
+.second-content-4 {
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-top: 40px;
+}
+
+
+/* why development section ends hare  */
+
+/* third section starts hare */
+.third-section{
+    width: 1040px;
+    height: 650px;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-top: 200px;
+    
+}
+.third-section h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.third-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.video{
+    border-radius: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* third section ends hare */
+/* chatgpt footer section */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .support-section {
+    background-image: url('path_to_background_image.jpg'); /* Background image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .support-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .support-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .support-section form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .support-section input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+  }
+  
+  .support-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
